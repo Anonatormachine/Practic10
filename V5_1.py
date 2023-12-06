@@ -24,7 +24,7 @@ def load_matrix():
 # Функция для сохранения матрицы в файл
 def save_matrix(matrix):
     # Открываем файл для записи
-    with open("ФИО_группа_vivod.txt", "w") as file:
+    with open("Анохин_УБ-31_vivod.txt", "w") as file:
         for row in matrix:
             # Преобразуем элементы строки в строки и объединяем их через пробел
             line = " ".join(str(elem) for elem in row)
