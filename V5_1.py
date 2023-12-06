@@ -13,7 +13,7 @@ def load_matrix():
     matrix = []
 
     # Открываем файл для чтения
-    with open("ФИО_группа_vvod.txt", "r") as file:
+    with open("Анохин_УБ-31_vvod.txt", "r") as file:
         for line in file:
             # Разбиваем строку на элементы и преобразуем их в целые числа
             row = [int(elem) for elem in line.split()]
